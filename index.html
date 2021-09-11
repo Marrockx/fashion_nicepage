@@ -53,26 +53,18 @@
 					</section>
 					<section id="model-images">
 						<div class="gallery-row-1">
-							<div>
-								<img src="images/gallery-1.jpeg" alt="" />
-							</div>
-							<div>
-								<img src="images/gallery-2.jpeg" alt="" />
-							</div>
-							<div>
-								<img src="images/gallery-3.jpeg" alt="" />
-							</div>
+							<img src="images/gallery-1.jpeg" alt="" />
+
+							<img src="images/gallery-2.jpeg" alt="" />
+
+							<img src="images/gallery-3.jpeg" alt="" />
 						</div>
 						<div class="gallery-row-2">
-							<div>
-								<img src="images/gallery-4.jpeg" alt="" />
-							</div>
-							<div>
-								<img src="images/gallery-5.jpeg" alt="" />
-							</div>
-							<div>
-								<img src="images/gallery-6.jpeg" alt="" />
-							</div>
+							<img src="images/gallery-4.jpeg" alt="" />
+
+							<img src="images/gallery-5.jpeg" alt="" />
+
+							<img src="images/gallery-6.jpeg" alt="" />
 						</div>
 					</section>
 					<section id="newsletter-section">
@@ -172,18 +164,16 @@
 					</section>
 					<section id="product-section">
 						<div id="product-content">
-							<div id="product-1">
-								<img
-									src="images/product-1.jpg"
-									alt="top view of a white converse"
-								/>
-							</div>
-							<div id="product-2">
-								<img
-									src="images/product-2.jpg"
-									alt="side view of a white converse"
-								/>
-							</div>
+							<img
+								src="images/product-1.jpg"
+								alt="top view of a white converse"
+							/>
+
+							<img
+								src="images/product-2.jpg"
+								alt="side view of a white converse"
+							/>
+
 							<div id="product-info">
 								<div id="product-name">
 									<h4>Sample Product</h4>
@@ -191,7 +181,7 @@
 								<div id="product-price">
 									<h5>$9.95</h5>
 								</div>
-								<div>
+								<div id="product-desc">
 									<p>
 										Sample text. Lorem ipsum dolor sit amet, consectetur
 										adipiscing elit nullam nunc justo sagittis suscipit
@@ -206,16 +196,18 @@
 					</section>
 					<section id="subscribe-section">
 						<div id="subscribe-content">
-							<div id="subscribe-image">
-								<img
-									src="images/subscribe.jpeg"
-									alt="a picture for subscribe section"
-								/>
-							</div>
+							<img
+								id="subscribe-image"
+								src="images/subscribe.jpeg"
+								alt="a picture for subscribe section"
+							/>
+
 							<div id="subscribe-form">
-								<div id="horizontal-line"></div>
-								<div id="subscribe-heading">
-									<h3>subscribe</h3>
+								<div>
+									<div id="horizontal-line"></div>
+									<div id="subscribe-heading">
+										<h3>subscribe</h3>
+									</div>
 								</div>
 								<div id="subscribe-form-wrap">
 									<form action="">
@@ -225,11 +217,14 @@
 													type="text"
 													name="subscriber-name"
 													id="subscriber-name"
+													placeholder="Enter your Name"
 												/>
 												<input
 													type="email"
 													name="subscriber-email"
 													id="subscriber-email"
+													placeholder="Enter a valid email address"
+													required
 												/>
 											</div>
 											<button type="submit">submit</button>
